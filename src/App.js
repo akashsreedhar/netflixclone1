@@ -3,13 +3,14 @@ import './App.css';
 import Nav from './components/Nav';
 import Banner from './components/Banner';
 import Row from './components/Row';
+import requests from './request';
 
 function App() {
   return (
     <div >
      
       <Nav/>
-      <Banner/>
+      <Banner fetchUrl={requests.fetchNetflixOriginals}/>
       <Row/>
       <Row/>
       <Row/>
