@@ -14,6 +14,8 @@ useEffect(()=>{
 
   fetchData()
 },[])
+console.log("testing")
+console.log("movie")
 
   return (
     <div>Banner</div>
