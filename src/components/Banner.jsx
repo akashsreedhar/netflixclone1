@@ -23,3 +23,4 @@ console.log("movie")
 }
 
 export default Banner
+//Banner
