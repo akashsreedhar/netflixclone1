@@ -20,7 +20,11 @@ console.log("movie")
 
   return (
     <div style={{height:'600px',backgroundImage: `url(${image_base_url}${movie?.backdrop_path})`}}>
+<div className='banner_content'>
+<h2>{movie?.name} </h2>
+<button className='btn btn-danger'>PLAY <i class="fa-solid fa-play"></i></button>
 
+</div>
     </div>
   )
 }
