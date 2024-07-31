@@ -8,8 +8,11 @@ function Banner({fetchUrl}) {
     const fetchData= async() => {
         const result = await instance.get(fetchUrl)
         const{data}=result;
+        console.log(data)
+        console.log("--total length---",data.results.length)
+        console.log(data.results[Math.floor(Math.random()*data.results.length)]);
         setMovie(data.results[0])
-        console.log(movie)
+        
     }
 useEffect(()=>{
 
