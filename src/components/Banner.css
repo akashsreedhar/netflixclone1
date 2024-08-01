@@ -1,0 +1,9 @@
+.banner_content{
+ padding-left: 3 rem;
+ padding-top: 300px;  
+ width:45rem; 
+}
+.banner_content h3{
+    font-size: 1 rem;
+    padding-top: 1 rem;
+}

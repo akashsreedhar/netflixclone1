@@ -1,5 +1,6 @@
 import React, { useEffect ,useState} from 'react';
 import instance from '../instance';
+import './Banner.css'
 
 function Banner({fetchUrl}) {
     console.log("banner fetchUrl",fetchUrl)
@@ -24,9 +25,10 @@ console.log("movie")
   return (
     <div style={{height:'600px',backgroundImage: `url(${image_base_url}${movie?.backdrop_path})`}}>
 <div className='banner_content'>
-<h2>{movie?.name} </h2>
+<h2 style={{color:'white'}}>{movie?.name} </h2>
 <button className='btn btn-danger me-2'>PLAY <i class="fa-solid fa-play ms-2"></i></button>
 <button className='btn btn-outline-light'>More info<i class="fa-solid fa-caret-down ms-2"></i></button>
+<h3 style={{color:'white'}}>{movie?.overview?.slice(0,200)}...</h3>
 </div>
     </div>
   )
