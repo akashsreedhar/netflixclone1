@@ -13,7 +13,7 @@ function App() {
       <Banner fetchUrl={requests.fetchNetflixOriginals}/>
       <Row title="Trending" fetchUrl={requests.fetchTrending}/>
       <Row title="Netflix Orginals" fetchUrl={requests.fetchNetflixOriginals}/>
-      <Row/>
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
       <Row/>
       <Row/>
       <Row/>
