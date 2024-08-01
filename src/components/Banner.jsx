@@ -23,7 +23,7 @@ console.log("testing")
 console.log("movie")
 
   return (
-    <div style={{height:'600px',backgroundImage: `url(${image_base_url}${movie?.backdrop_path})`}}>
+    <div style={{height:'600px',backgroundImage: `url(${image_base_url}${movie?.backdrop_path})`,backgroundSize:'cover'}}>
 <div className='banner_content'>
 <h2 style={{color:'white'}}>{movie?.name} </h2>
 <button className='btn btn-danger me-2'>PLAY <i class="fa-solid fa-play ms-2"></i></button>
