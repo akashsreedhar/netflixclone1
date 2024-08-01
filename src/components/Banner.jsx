@@ -11,7 +11,7 @@ function Banner({fetchUrl}) {
         console.log(data)
         console.log("--total length---",data.results.length)
         console.log(data.results[Math.floor(Math.random()*data.results.length)]);
-        setMovie(data.results[0])
+        setMovie(data.results[Math.floor(Math.random()*data.results.length)])
         
     }
 useEffect(()=>{
