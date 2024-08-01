@@ -18,7 +18,7 @@ function App() {
       <Row  title="Comedy Movies" fetchUrl={requests.fetchComedyMovies}/>
       <Row title="Horrer Movies" fetchUrl={requests.fetchHorrorMovies}/>
       <Row title="Romance Movies" fetchUrl={requests.fetchHorrorMovies}/>
-      <Row t/>
+      <Row title="Documentarires" fetchUrl={requests.fetchDocumentaries}/>
     
       
 
