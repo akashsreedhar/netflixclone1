@@ -1,3 +1,33 @@
+NetflixClone1 is a sample clone website of Netflix that uses a Netflix API to display content from Netflix
+
+Stack Used :React
+
+Created by : Akash Sreedhar
+
+Click the link :https://curious-alpaca-a83457.netlify.app
+                
+        FYI: The above link may not work properly in some browsers using Indian servers. Please connect to a VPN to see the website fully functional
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
