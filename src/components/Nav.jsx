@@ -1,10 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import './Nav.css'
 function Nav() {
   return (
-    <div>
+    <div className='nav'>
 
-        <img width={'160px'} src="https://cdn.logojoy.com/wp-content/uploads/20231031154601/2014-netflix-logo-600x319.png" alt="" />
+        <img width={'160px'} src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" alt="" />
     </div>
 
   )
